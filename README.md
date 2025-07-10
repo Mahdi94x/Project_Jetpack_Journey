@@ -61,3 +61,15 @@ Gameplay Flow
 * Collectibles and interactive elements modify the experience.
 * Upon falling or winning, an end-game menu appears with options.
 * Game logic is cleanly separated from UI via delegates and controller-based input mode switching.
+
+Chaos Vehicle System (UE5)
+* Fully Drivable Vehicle using WheeledVehiclePawn
+* Physics-Based Suspension and Torque System powered by Chaos Physics
+* Vehicle-Specific Animation Blueprint using WheelController node
+* Modular Blueprints for front wheels, rear wheels, vehicle mesh, and logic
+* Controls:  
+  * W / Right Trigger – Accelerate
+  * S / Left Trigger – Brake or Reverse
+  * Space / Gamepad Face Button – Handbrake
+  * A / D – Steer left/right
+  * Mouse / Right Stick – Look around
